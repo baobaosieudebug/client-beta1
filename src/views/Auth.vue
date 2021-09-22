@@ -24,7 +24,7 @@ export default {
     const { isAuthenticated, loading } = auth0;
 
     const login = () => {
-      auth0.loginWithRedirect();
+      auth0.loginWitthRedirect();
     };
 
     return { login, isAuthenticated, loading };
