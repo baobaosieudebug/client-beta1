@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const URL = 'http://localhost:8000/';
+const URL = 'https://chatbot-keyreply-v3.herokuapp.com/';
 const socket = io(URL, { autoConnect: false });
 
 socket.onAny((event, ...args) => {
